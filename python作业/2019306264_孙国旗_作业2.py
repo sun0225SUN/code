@@ -26,6 +26,7 @@ for x in temp2:
 
 
 
+
 # 将lambda函数改成标准函数。
 
 # def del_girl(x):
