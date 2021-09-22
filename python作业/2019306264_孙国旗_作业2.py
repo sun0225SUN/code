@@ -38,10 +38,10 @@ for x in temp2:
 #
 #
 # info = [{'name': '小千', 'sex': 0, 'score': 95},
-#        {'name': '小锋', 'sex': 1, 'score': 99},
-#        {'name': '小扣', 'sex': 0, 'score': 86},
-#        {'name': '小丁', 'sex': 1, 'score': 88},
-#        {'name': '小明', 'sex': 1, 'score': 90}]
+#         {'name': '小锋', 'sex': 1, 'score': 99},
+#         {'name': '小扣', 'sex': 0, 'score': 86},
+#         {'name': '小丁', 'sex': 1, 'score': 88},
+#         {'name': '小明', 'sex': 1, 'score': 90}]
 # temp1 = list(filter(del_girl, info))
 # temp2 = sorted(temp1, key=sort_score, reverse=True)
 # for x in temp2:
