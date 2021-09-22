@@ -18,7 +18,7 @@ for x in temp2:
     for key, value in x.items():
         # 如果键不为'sex'，则输出与键对应的值。
         if key != 'sex':
-            # print()函数的第三个参数'end'默认为'/n',本处表示：打印一行文字后不换行，而是输出一个空格。
+            # print()函数的第三个参数'end'默认为'\n',本处表示：打印一行文字后不换行，而是输出一个空格。
             print(value, end=' ')
     # 遍历完一名学生，也就是输出完一名学生的信息后，利用print()进行换行。
     print()
