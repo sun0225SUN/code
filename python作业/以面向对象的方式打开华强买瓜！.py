@@ -83,10 +83,6 @@ class Frind(Person):
         print(self.name + "说: " + "华强，哎，华强!")
 
 
-class Aside(Person):
-    def __init__(self, name):
-        self.name = name
-
 
 if __name__ == '__main__':
     # 实例化类，创建对象
