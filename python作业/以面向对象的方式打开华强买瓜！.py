@@ -92,7 +92,7 @@ if __name__ == '__main__':
     friend = Frind("华强朋友")
     aside = Aside("旁白")
 
-    # 正文，开始调用对象和方法，满足业务逻辑
+    # 正文，开始调用对象实例方法，满足业务逻辑
     print()
     print("有一个人前来买瓜")
     print(liuhuaqiang.name + "骑着摩托，从树边写着“香草莓特甜5元2斤”的招牌经过，来到水果摊前。")
