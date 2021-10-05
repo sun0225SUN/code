@@ -75,15 +75,15 @@ def fit(points):
     for i in range(M):
         x = points[i, 0]  # 第一列第i个点，即xi
         y = points[i, 1]  # 第二列第i个点，即yi
-        sum_yx += y * (x-x_bar)
+        sum_yx += y * (x - x_bar)
         sum_x2 += x ** 2
-    w = sum_yx / (sum_x2-M*(x_bar**2))
+    w = sum_yx / (sum_x2 - M * (x_bar ** 2))
 
     for i in range(M):
-        x=points[i,0]
-        y=points[i,1]
-        sum_delta+=(y-w*x)
-    b=sum_delta/M
+        x = points[i, 0]
+        y = points[i, 1]
+        sum_delta += (y - w * x)
+    b = sum_delta / M
 
     return w, b
 
