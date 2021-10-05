@@ -11,7 +11,7 @@ points = np.genfromtxt('data.csv', delimiter=',')
 # 导入数据(data.csv)
 # 利用np模块的里的gentfromtxt方法读取文件
 # 第一个参数指的是文件路径，可以是相对路径或者是绝对路径，也可以是网络路径（下载到当前目录后打开）
-# 第二个参数表示以','作为分隔符，（csv是以“,”分割行数据的一种存储方式）
+# 第二个参数表示以','作为分隔符，（csv格式文件是以“,”分割行数据的一种存储方式）
 # numpy.genfromtxt 的具体用法：
 # https://www.osgeo.cn/numpy/reference/generated/numpy.genfromtxt.html#numpy.genfromtxt
 
@@ -68,23 +68,22 @@ def average(data):
 def fit(points):
     M = len(points)  # 点的个数
     x_bar = average(points[:, 0])  # 第一列所有点的平均值
-    y_bar = average(points[:, 0])
     sum_yx = 0
     sum_x2 = 0
+    sum_delta = 0
 
     for i in range(M):
         x = points[i, 0]  # 第一列第i个点，即xi
         y = points[i, 1]  # 第二列第i个点，即yi
-        sum_yx += y * x
+        sum_yx += y * (x-x_bar)
         sum_x2 += x ** 2
+    w = sum_yx / (sum_x2-M*(x_bar**2))
 
-    # 根据公式计算W
-    fz = sum_yx - M * x_bar * y_bar
-    fm = sum_x2 - M * x_bar ** 2
-    w = fz / fm
-
-    # 根据公式计算b
-    b = y_bar-w*x
+    for i in range(M):
+        x=points[i,0]
+        y=points[i,1]
+        sum_delta+=(y-w*x)
+    b=sum_delta/M
 
     return w, b
 
