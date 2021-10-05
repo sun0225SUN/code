@@ -1,8 +1,6 @@
 # 线性回归最小二乘法
 
-
 # 引入依赖
-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -101,11 +99,6 @@ cost = compute_cost(w, b, points)
 print("cost is:", cost)
 
 # 画出拟合曲线
-
-
-# 针对每一个x,计算出预测的y值
-pred_y = w * x + b
-# print(pred_y)
+pred_y = w * x + b  # 针对每一个x,计算出预测的y值
 plt.scatter(x, pred_y)
-# plt.plot(x, pred_y, c='r')
 plt.show()
