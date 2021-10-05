@@ -11,7 +11,7 @@ points = np.genfromtxt('data.csv', delimiter=',')
 # 导入数据(data.csv)
 # 利用np模块的里的gentfromtxt方法读取文件
 # 第一个参数指的是文件路径，可以是相对路径或者是绝对路径，也可以是网络路径（下载到当前目录后打开）
-# 第二个参数表示以','作为分隔符，（csv格式文件是以“,”分割行数据的一种存储方式）
+# 第二个参数表示以','作为分隔符，（csv是以“,”分割行数据的一种存储方式）
 # numpy.genfromtxt 的具体用法：
 # https://www.osgeo.cn/numpy/reference/generated/numpy.genfromtxt.html#numpy.genfromtxt
 
