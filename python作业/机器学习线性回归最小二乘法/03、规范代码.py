@@ -12,7 +12,6 @@ class Solution:
             x = points[i, 0]
             y = points[i, 1]
             total_cost += (y - w * x - b) ** 2
-
         return total_cost / M 
 
     # 定义了一个求取平均数的函数，因为要计算x_bar，y_bar
