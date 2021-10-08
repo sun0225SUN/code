@@ -97,6 +97,11 @@ cost = compute_cost(w, b, points)
 print("cost is:", cost)
 
 # 画出拟合曲线
-pred_y = w * x + b  # 针对每一个x,计算出预测的y值
-plt.scatter(x, pred_y)
+# 画出散点图
+plt.scatter(x, y)
+# 针对每一个x,计算出预测的y值
+pred_y = w * x + b
+# 画出拟合线
+plt.plot(x, pred_y, c='r')
+# 展示
 plt.show()
