@@ -1,0 +1,76 @@
+{
+    "header": [
+        " *   ",
+        " *   如非需要调试，本文件可删除",
+        " *   非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq#INFO-JSON",
+        " *   "
+    ],
+    "resources": [
+        {
+            "url": "https://cheeseburgerim.space/IronMan/",
+            "path": "index.html",
+            "saved": true,
+            "size": 2992,
+            "children": [
+                {
+                    "url": "https://gitee.com/CheeseburgerIM/imagehosting/raw/master/Image/Home/Web_icon.jpg",
+                    "path": "img/Web_icon.jpg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "alias": "cheeseburgerim-space-zax5yoa",
+    "info": {
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "cookie": "",
+                "referer": "https://cheeseburgerim.space/IronMan/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "redirects": [],
+            "responseUrl": "https://cheeseburgerim.space/IronMan/",
+            "statusCode": 200,
+            "headers": {
+                "server": "nginx/1.14.1",
+                "date": "Mon, 06 Dec 2021 09:06:06 GMT",
+                "content-type": "text/html",
+                "content-length": "3419",
+                "last-modified": "Fri, 12 Nov 2021 11:00:12 GMT",
+                "connection": "close",
+                "etag": "\"618e493c-d5b\"",
+                "accept-ranges": "bytes"
+            }
+        },
+        "time": {
+            "start": "2021-12-06T09:06:06.186Z",
+            "end": "2021-12-06T09:06:07.776Z"
+        },
+        "remark": [],
+        "title": "IronMan",
+        "ip": "82.157.150.178",
+        "url": "https://cheeseburgerim.space/IronMan/",
+        "main": "index.html",
+        "domain": "cheeseburgerim.space",
+        "origin": "https://cheeseburgerim.space",
+        "totalSize": "2.99 kB"
+    },
+    "options": {
+        "formatter": [],
+        "url": "https://cheeseburgerim.space/IronMan/",
+        "referer": "",
+        "cookies": "",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+        "filenameGenerator": "byType"
+    }
+}
